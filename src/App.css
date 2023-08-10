@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  
+  padding: 0;
+ 
+}
+/* .height-100{
+  height: 450px;
+} */
+body{
+  height: auto;
+  width: auto;
+  background-color: rgba(223, 213, 213, 0.459);
+}
+body .logo{
+  position: fixed;
+  top: 50px;
+  
+  width: 80%;
+ left: 90px;
+  z-index: 100;
+  opacity: 0.1;
+}
+.Droopdown{
+  /* display:flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 130px;
+}
+
+.fa-mug-hot {
+  color: darkred;
+ 
+}
+.fa-mug-saucer{
+  color: darkgreen;
+}
+.Curds{
+  text-align: center;
+  
+}
+.Curds img{
+  width: 287px;
+  height: 200px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* -----Header-ierea----- */
+.Header img{
+  width: 45%;
+  height: 60%;
+  box-shadow: 0 0 20px white;
+  border-radius: 5px;
+  display: block;
+  transition: 0.5s;
+}
+.Header img:hover{
+  transform: scale(1.02);
+}
+.Header {
+  border-bottom: 23px solid white;
+}
+/* -----Header-ierea----- */
+
+
+
+/* -----Imeg-ierea----- */
+
+.Imeg {
+ 
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Imeg .imag {
+  /* width: 30%; */
+  height: auto;
+
+}
+.Imeg .imag img{
+  width: 150px;
+  height: 220px;
+  margin: 15px 10px;
+  box-shadow: 0 0 5px white;
+  border-radius: 15px;
+  opacity: 0.5;
+}
+.Imeg .imag img:hover{
+ box-shadow: 0 0 30px white;
+ cursor: pointer;
+ opacity: 1;
+}
+
+/* -----Imeg-ierea----- */
+
+ /* -----Imegtext-ierea----- */
+
+ .Imegtext-Swedish:hover  {
+ border-bottom: 2px solid white;
+  opacity: 1;
+ color: white;
+  cursor: pointer;
+  
+  
+}
+.Imegtext-Swedish{
+  opacity: 0.5;
+  position: absolute;
+  left: 560px;
+  top: 950px;
+
+}
+.Imegtext-Brazilian:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Brazilian{
+   opacity: 0.5;
+   position: absolute;
+   left: 727px;
+   top: 950px;
+ 
+ }
+ .Imegtext-Egyptian:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Egyptian{
+   opacity: 0.5;
+   position: absolute;
+   left: 900px;
+   top: 950px;
+ 
+ }
+ .Imegtext-Africa:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Africa{
+   opacity: 0.5;
+   position: absolute;
+   left: 1083px;
+   top: 950px;
+ 
+ }
+ .Imegtext-Norway:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Norway{
+   opacity: 0.5;
+   position: absolute;
+   left: 560px;
+   top: 1190px;
+ 
+ }
+ .Imegtext-Belgium:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Belgium{
+   opacity: 0.5;
+   position: absolute;
+   left: 730px;
+   top: 1190px;
+ 
+ }
+ .Imegtext-Saudi:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Saudi{
+   opacity: 0.5;
+   position: absolute;
+   left: 875px;
+   top: 1190px;
+ 
+ }
+
+ 
+ .Imegtext-Turkish:hover  {
+  border-bottom: 2px solid white;
+   opacity: 1;
+  color: white;
+   cursor: pointer;
+   
+   
+ }
+ .Imegtext-Turkish{
+   opacity: 0.5;
+   position: absolute;
+   left: 1080px;
+   top: 1190px;
+ 
+ }
+
+.Moroccan-Coffee{
+  width: 450px;
+  height: auto;
+  color: white;
+  position: absolute;
+  top: 1040px;
+  left: 35px;
+  text-align: center;
+  align-items: center;
+
+}
+.Moroccan-Coffee h2:hover  {
+  transform: scale(1.1);
+   
+  color: white;
+   cursor: pointer;
+}
+
+ /* -----Imegtext-ierea----- */
+
+ /* -----Slider-ierea----- */
+ .Slider{
+  border-top:20px solid rgba(236, 234, 234, 0.459);
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  justify-content: space-around;
+ 
+  align-items: center;
+  
+ }
+ .Slider i{
+  color: darkgreen;
+ }
+ .Slider .text1{
+  margin: 5px;
+  text-align: center;
+  width: 750px;
+
+ }
+ .Slider .text2{
+  width: 430px;
+ 
+  text-align: center;
+
+ }
+ .Slider.Slider2{
+  width: 800px;
+  display: block;
+ }
+
+  /* -----Slider-ierea----- */
+
+
+   /* -----Scroll-ierea----- */
+ .gggg{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  border-bottom: 2px solid black;
+
+ }
+ .gggg i{
+
+  position: relative;
+  width: 70%;
+  height: 100%;
+  left: 120px;
+  color: darkred;
+ 
+ }
+  /* -----Scroll-ierea----- */
+
+
+ 
+  /* -----Form -ierea----- */
+ 
+
+  .Form{
+    position: relative;
+    top: 100px;
+    width: 70%;
+    align-items: center;
+    padding: 100px 30px 30px 30px ;
+    background-color: rgba(0, 0, 0, 0.064);
+    border-radius: 30px;
+    border: 80px solid  rgba(7, 7, 7, 0.639);
+
+
+  }
+  .Form h3{
+    position: relative;
+    top: -20;
+    left: 240px;
+  }
+  .Form i{
+    position: absolute;
+    font-size: 70px;
+    top:15px;
+    left: 320px;
+    color: darkorange;
+    
+  }
+
+/* -----Form -ierea----- */
+
+   .Footer{
+    position: relative;
+    top: 200px;
+   }
+   .active{
+   border: 1px solid black;
+   border-radius: 15px;
+   background-color: rgba(0, 0, 0, 0.142);
+   margin: -2px;
+   }
